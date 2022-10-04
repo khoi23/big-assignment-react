@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/big-assignment/static/css/main.3e65d213.css",
+    "main.js": "/big-assignment/static/js/main.660fee20.js",
+    "static/media/remixicon.svg?t=1590207869815": "/big-assignment/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/1.avif": "/big-assignment/static/media/1.c0d685a97e6798c5944d.avif",
+    "static/media/remixicon.eot?t=1590207869815": "/big-assignment/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/big-assignment/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/remixicon.woff?t=1590207869815": "/big-assignment/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/remixicon.woff2?t=1590207869815": "/big-assignment/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "index.html": "/big-assignment/index.html",
+    "main.3e65d213.css.map": "/big-assignment/static/css/main.3e65d213.css.map",
+    "main.660fee20.js.map": "/big-assignment/static/js/main.660fee20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e65d213.css",
+    "static/js/main.660fee20.js"
+  ]
+}
