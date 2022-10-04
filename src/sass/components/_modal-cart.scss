@@ -1,0 +1,87 @@
+.modal-dialog {
+    margin-top: 6rem;
+}
+
+.modal-content {
+    gap: 1rem;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.modal-header {
+    .modal-title-cart {
+        font-family: "RocknRoll One", sans-serif !important;
+        font-size: 2.2rem;
+    }
+}
+
+.modal-product {
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 2rem;
+        &-item {
+            @include flex(center, space-between);
+            border-bottom: 2px solid $main-color;
+            padding-bottom: 2rem;
+        }
+    }
+
+    &-info {
+        h4 {
+            font-family: "RocknRoll One", sans-serif !important;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        &-value {
+            @include flex(center, flex-start);
+            gap: 3rem;
+
+            p {
+                margin-bottom: 0;
+                color: $main-color;
+                font-weight: 600;
+                letter-spacing: 0.5px;
+            }
+
+            span {
+                border: 1px solid #999;
+                padding: 0.4rem 1rem;
+                border-radius: 3px;
+            }
+        }
+    }
+
+    &-price {
+        @include flex(flex-end, space-between);
+        gap: 2rem;
+
+        .btn-outline {
+            padding: 0.2rem 1rem;
+        }
+    }
+}
+
+.modal-input {
+    display: flex;
+    flex-direction: column;
+
+    &__group {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.modal-product__Total {
+    @include flex(center, space-between);
+    h3 {
+        font-family: "RocknRoll One", sans-serif !important;
+        font-size: 2.2rem;
+    }
+    h4 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}

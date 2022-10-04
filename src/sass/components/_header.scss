@@ -1,0 +1,58 @@
+.navbar__brand {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    height: $header-height;
+    transition: height 0.3s ease;
+    background-color: #851d1d;
+    color: $txt-white;
+    .container {
+        @include flex(center, space-between);
+        gap: 10rem;
+    }
+
+    &-logo {
+        font-size: 2.4rem;
+        font-family: "RocknRoll One", sans-serif !important;
+        span {
+            color: #fff019;
+        }
+    }
+
+    &-menu {
+        @include flex(center, flex-start);
+        margin-right: auto;
+        gap: 2rem;
+        font-family: "RocknRoll One", sans-serif !important;
+        font-size: 1.8rem;
+        position: relative;
+    }
+
+    &-icon {
+        @include flex(center, flex-end);
+        gap: 4rem;
+        button {
+          @include flex(center, center);
+            border: none;
+            outline: none;
+            background: transparent;
+            font-size: 2.2rem;
+            color: $txt-white;
+            position: relative;
+            span {
+              font-size: 1.4rem;
+              position: absolute;
+              right: -10px;
+              top: -4px;
+              background-color: #fff019;
+              color: $secondary-color;
+              height: 20px;
+              width: 20px;
+              border-radius: 50%;
+            }
+        }
+    }
+}

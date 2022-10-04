@@ -1,0 +1,34 @@
+$main-bg: #fcfcfc;
+$main-color: #df2020;
+$secondary-color: #212245;
+
+$txt-main-color: #000;
+$txt-second-color: #212245;
+$txt-white: #fff;
+$txt-gray: #777;
+
+$btn-main-bg: $main-color;
+$btn-main-color: #fff;
+$btn-main-bg-hover: #ec3131;
+$btn-main-color-hover: #fff;
+
+$header-height: 80px;
+$header-tablet-height: 60px;
+$header-mobile-height: 40px;
+$header-shrink-height: 60px;
+
+$box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 26px;
+
+$color: (
+  "blue": #4267b2,
+  "orange": #fbb96b,
+  "pink": #fe7e73,
+  "white": #fff,
+  "black": #000,
+  "main": $main-color,
+);
+
+$mobile-width: 600px;
+$tablet-width: 1024px;
+
+$numbers: (0, 1, 2, 3, 4, 5, 6, 7, 8);
